@@ -1,0 +1,170 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Digvijay Singh",
+    "label": "Developer | Senior Consultant",
+    "email": "job-hunt@digvijay.slmail.me",
+    "summary": "Team player and confident individual with an apt for learning new technology with 5 years of experience. Skilled in back-end development using Java with knowledge of software design principles and agile development process.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Varanasi",
+      "countryCode": "IN",
+      "region": ""
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "im-digvijay",
+        "url": "https://github.com/im-digvijay"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "imdigvijay",
+        "url": "https://www.linkedin.com/in/imdigvijay/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "/thoughtworks",
+      "location": "Bangalore, India",
+      "description": "A global technology consultancy company",
+      "position": "Senior Consultant",
+      "url": "https://www.thoughtworks.com",
+      "startDate": "2021-10-18",
+      "summary": "Major involvement on setting up data pipeline",
+      "highlights": [
+        "**Tech Stack:** Java 17, SpringBoot, Kafka, ksqlDB",
+        "**Build Tool:** Gradle",
+        "**CI/CD:** Jenkins, GitHub Actions",
+        "**Cloud:** AWS (EKS, MSK, Terraform)",
+        "**Testing Tool:** JUnit, TestNG, Gatling",
+        "**Platform:** Docker"
+      ]
+    },
+    {
+      "name": "Infosys Limited",
+      "location": "Pune, India",
+      "description": "A global leader in next-generation digital services and consulting.",
+      "position": "Senior Systems Engineer",
+      "url": "https://www.infosys.com",
+      "startDate": "2018-12-10",
+      "endDate": "2021-10-13",
+      "summary": "Major involvement on setting up data pipeline",
+      "highlights": [
+        "**Tech Stack:** Java 17, SpringBoot, Kafka, ksqlDB",
+        "**Build Tool:** Gradle",
+        "**CI/CD:** Jenkins, GitHub Actions",
+        "**Cloud:** AWS (EKS, MSK, Terraform)",
+        "**Testing Tool:** JUnit, TestNG, Gatling",
+        "**Platform:** Docker"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Dr. A. P. J. Abdul Kalam Technical University",
+      "url": "https://aktu.ac.in/",
+      "area": "Computer Science and Engineering",
+      "studyType": "Bachelor of Technology (B.Tech.)",
+      "startDate": "2014-07-01",
+      "endDate": "2018-06-31",
+      "score": "7.75",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Backend Development",
+      "level": "Advanced",
+      "keywords": [
+        "Java",
+        "Spring Boot",
+        "Kafka",
+        "Microservices Development",
+        "TDD - Test Driven Development",
+        "Clean Code"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Advanced",
+      "keywords": [
+        "Shell/PowerShell Scripting",
+        "CI/CD",
+        "Jenkins | Github Actions",
+        "Terraform",
+        "Git",
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "Build Tools - Maven/Gradle"
+      ]
+    },
+    {
+      "name": "Golang",
+      "level": "Intermediate",
+      "keywords": []
+    },
+    {
+      "name": "Spring Boot",
+      "level": "Advanced",
+      "keywords": [
+        "Security",
+        "Cloud",
+        "Data JPA",
+        "Logback"
+      ]
+    },
+    {
+      "name": "AWS",
+      "level": "Intermediate",
+      "keywords": [
+        "EKS",
+        "ECS",
+        "S3",
+        "IAM",
+        "VPC",
+        "MSK",
+        "RDS",
+        "CloudWatch"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Intermediate",
+      "keywords": [
+        "PostgreSQL",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Kafka",
+      "level": "Intermediate",
+      "keywords": [
+        "Kafka Stream",
+        "ksqlDB",
+        "Kafka Connect",
+        "Schema Registry",
+        "Avro"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Professional Working Proficiency"
+    },
+    {
+      "language": "Hindi",
+      "fluency": "Native or Bilingual Proficiency"
+    }
+  ],
+  "meta": {
+    "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
+    "version": "v1.0.0",
+    "lastModified": "2017-12-24T15:53:00",
+    "theme": "flat"
+  }
+}
