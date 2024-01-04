@@ -4,7 +4,7 @@
     "name": "Digvijay Singh",
     "label": "Developer | Senior Consultant",
     "email": "job-hunt@digvijay.slmail.me",
-    "summary": "Team player and confident individual with an apt for learning new technology with 5 years of experience. Skilled in back-end development using Java with knowledge of software design principles and agile development process.",
+    "summary": "With 5 years of experience as a software developer, I am enthusiastic about tackling problems and elevating the user experience using technology. With active involvement in open source projects and mentoring, I am devoted to contributing to the tech community.\nI am proficient in software development, along with agile methodologies and effective collaboration with cross-functional teams. Beyond development, I also have a keen interest in DevOps.\nI am eagerly seeking roles and responsibilities that provide a blend of both of these aspects.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -52,7 +52,7 @@
       "endDate": "2023-09-30",
       "summary": "**Ecommerce platform**\nBuilding RESTful domain APIs for an e-commerce platform. To provide a single data source for data used across e-commerce, we used an event-based system to sync data from multiple sources.\nMajor involvement in setting up the data pipeline, enhancing common CI/CD workflows, building the Spring starter common library, and performance testing and tuning.\nIn a team of 14, the primary responsibility was to co-create solutions, maintain code quality, and follow clean code practices. Also, I autonomously handled all DevOps-related responsibilities for our team.",
       "highlights": [
-        "**Tech Stack:** Java 17, SpringBoot, Kafka, ksqlDB",
+        "**Tech Stack:** Java 17, SpringBoot, Scala, Kafka, ksqlDB",
         "**Build Tool:** Gradle",
         "**CI/CD:** Jenkins, GitHub Actions",
         "**Cloud:** AWS (EKS, MSK, Terraform)",
@@ -118,7 +118,7 @@
         "Spring Boot",
         "Kafka",
         "Microservices Development",
-        "TDD - Test Driven Development",
+        "TDD - Test-Driven Development",
         "Clean Code"
       ]
     },
@@ -128,13 +128,14 @@
       "keywords": [
         "Shell/PowerShell Scripting",
         "CI/CD",
+        "Azure DevOps",
         "Jenkins | Github Actions",
         "Terraform",
         "Git",
         "Docker",
         "Kubernetes",
         "Linux",
-        "Build Tools - Maven/Gradle"
+        "Maven | Gradle"
       ]
     },
     {
@@ -163,7 +164,8 @@
         "VPC",
         "MSK",
         "RDS",
-        "CloudWatch"
+        "CloudWatch",
+        "Secrets Manager"
       ]
     },
     {
