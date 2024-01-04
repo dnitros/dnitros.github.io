@@ -32,8 +32,25 @@
       "description": "A global technology consultancy company",
       "position": "Senior Consultant",
       "url": "https://www.thoughtworks.com",
+      "startDate": "2023-10-01",
+      "summary": "**Client Enablement**\nMajor focus is on boosting the productive output of one of the client teams.",
+      "highlights": [
+        "Collaborate with key stakeholders to understand the client's challenges and requirements, gathering insights into their expectations and desired outcomes.",
+        "Identifying and prioritizing solutions for challenges and proposing solutions in accordance with the provided timeline.",
+        "Train and educate client teams about agile methodologies.",
+        "Enabling the client team to increase their delivery speed by doing co-source deliveries for a quarter.",
+        "In a team of 2, the primary responsibility is to conceptualize, experiment, and co-create solutions with the help of extreme programming and agile methodology."
+      ]
+    },
+    {
+      "name": "/thoughtworks",
+      "location": "Bangalore, India",
+      "description": "A global technology consultancy company",
+      "position": "Consultant",
+      "url": "https://www.thoughtworks.com",
       "startDate": "2021-10-18",
-      "summary": "Major involvement on setting up data pipeline",
+      "endDate": "2023-09-30",
+      "summary": "**Ecommerce platform**\nBuilding RESTful domain APIs for an e-commerce platform. To provide a single data source for data used across e-commerce, we used an event-based system to sync data from multiple sources.\nMajor involvement in setting up the data pipeline, enhancing common CI/CD workflows, building the Spring starter common library, and performance testing and tuning.\nIn a team of 14, the primary responsibility was to co-create solutions, maintain code quality, and follow clean code practices. Also, I autonomously handled all DevOps-related responsibilities for our team.",
       "highlights": [
         "**Tech Stack:** Java 17, SpringBoot, Kafka, ksqlDB",
         "**Build Tool:** Gradle",
@@ -49,16 +66,34 @@
       "description": "A global leader in next-generation digital services and consulting.",
       "position": "Senior Systems Engineer",
       "url": "https://www.infosys.com",
-      "startDate": "2018-12-10",
+      "startDate": "2021-01-01",
       "endDate": "2021-10-13",
-      "summary": "Major involvement on setting up data pipeline",
+      "summary": "Worked on the Nokia Motive SMP tool as a Workflow developer for the enhancement of support services for a leading telecom provider.",
       "highlights": [
-        "**Tech Stack:** Java 17, SpringBoot, Kafka, ksqlDB",
-        "**Build Tool:** Gradle",
-        "**CI/CD:** Jenkins, GitHub Actions",
-        "**Cloud:** AWS (EKS, MSK, Terraform)",
-        "**Testing Tool:** JUnit, TestNG, Gatling",
-        "**Platform:** Docker"
+        "Study the AS-IS process of the services provided by the company and identify the TO-BE process to be developed.",
+        "Utilized BPMN tools like Nokia Motive for workflow configuration, enhancing support resolution efficiency.",
+        "Acquired proficiency in WFE (Workflow Engine), Java (Juel, JSON), JavaScript, and XML.",
+        "Worked in an Agile Scrum environment, demonstrating familiarity with Agile ceremonies.",
+        "Executed workflow deployments across various environments.",
+        "Collaborated with testers for the production deployment of workflow processes.",
+        "Documented processes in accordance with client requirements."
+      ]
+    },
+    {
+      "name": "Infosys Limited",
+      "location": "Pune, India",
+      "description": "A global leader in next-generation digital services and consulting.",
+      "position": "Systems Engineer",
+      "url": "https://www.infosys.com",
+      "startDate": "2018-12-10",
+      "endDate": "2020-12-31",
+      "summary": "Worked on the application development and maintenance for the SMARTS network monitoring tool for a leading telecom provider in the UK. Major work was involved in scoping and delivering a network monitoring software solution.",
+      "highlights": [
+        "Conducted daily monitoring, administration, management, and support of alarm systems through the utilization of the SMARTS tool.",
+        "Engage with the network team to discuss the reported false alarm and provide a root-cause analysis of the issue.",
+        "Creating and automating optimal solutions in accordance with customer requirements using ASL, Shell, and Perl scripts.",
+        "Developed automated scripts to manage Weblogic servers and streamline routine tasks.",
+        "Responsible for overseeing the entire SMARTS end-to-end process, the deployment of new solutions, and delivering post-release support."
       ]
     }
   ],
@@ -69,7 +104,7 @@
       "area": "Computer Science and Engineering",
       "studyType": "Bachelor of Technology (B.Tech.)",
       "startDate": "2014-07-01",
-      "endDate": "2018-06-31",
+      "endDate": "2018-06-30",
       "score": "7.75",
       "courses": []
     }
@@ -165,6 +200,6 @@
     "canonical": "https://raw.githubusercontent.com/jsonresume/resume-schema/master/resume.json",
     "version": "v1.0.0",
     "lastModified": "2017-12-24T15:53:00",
-    "theme": "flat"
+    "theme": "elegant"
   }
 }
