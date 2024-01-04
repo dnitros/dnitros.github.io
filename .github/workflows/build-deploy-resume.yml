@@ -43,15 +43,17 @@ jobs:
           npm run validate
           npm run export
 
-      - name: Save build cache
-        uses: actions/cache/save@v3
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          path: build
-          key: ${{ runner.OS }}_build-${{ hashFiles('resume.json') }}
+          path: 'build'
 
   deploy:
     environment:
-      name: github-pages
+      name: gh-pages
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
@@ -61,35 +63,13 @@ jobs:
       id-token: write
       actions: write
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Restore build cache
-        id: cache
-        uses: actions/cache/restore@v3
-        with:
-          path: build
-          key: ${{ runner.OS }}_build-${{ hashFiles('resume.json') }}
-
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
-      - name: Upload artifact
-        if: steps.cache.outputs.cache-hit == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: 'build'
-
-      - name: Clear build cache
-        env:
-          GH_TOKEN: ${{ github.token }}
-        run: |
-          gh cache list
-          gh cache delete ${{ runner.OS }}_build-${{ hashFiles('resume.json') }}
 
       - name: Deploy to GitHub Pages
-        if: success()
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: Delete build Artifact
+        uses: geekyeggo/delete-artifact@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: github-pages
