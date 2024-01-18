@@ -157,6 +157,7 @@
       "name": "AWS",
       "level": "Intermediate",
       "keywords": [
+        "EC2",
         "EKS",
         "ECS",
         "S3",
