@@ -4,7 +4,7 @@
     "name": "Digvijay Singh",
     "label": "Developer | Senior Consultant",
     "email": "im-digvijay@outlook.com",
-    "summary": "With 5 years of experience as a software developer, I am enthusiastic about tackling problems and elevating the user experience using technology. With active involvement in open source projects and mentoring, I am devoted to contributing to the tech community.\nI am proficient in software development, along with agile methodologies and effective collaboration with cross-functional teams. Beyond development, I also have a keen interest in DevOps.\nI am eagerly seeking roles and responsibilities that provide a blend of both of these aspects.",
+    "summary": "With over 5 years of experience as a software developer, I am enthusiastic about tackling problems and elevating the user experience using technology. With active involvement in open source projects and mentoring, I am devoted to contributing to the tech community.\nI am proficient in software development, along with agile methodologies and effective collaboration with cross-functional teams. Beyond development, I also have a keen interest in DevOps.\nI am eagerly seeking roles and responsibilities that provide a blend of both of these aspects.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -32,14 +32,32 @@
       "description": "A global technology consultancy company",
       "position": "Senior Consultant",
       "url": "https://www.thoughtworks.com",
+      "startDate": "2024-03-01",
+      "summary": "**SportRadar - Custom Sports Betting**",
+      "highlights": [
+        "Collaborative developed RESTful APIs enabling bookmakers to boost bettor/punter engagement through custom tailored bets before or/and during an event.",
+        "Improved API performance by implementing rate limiting and enhancing testing pipelines, boosting system stability, and providing key metrics for monitoring and identifying bottlenecks.",
+        "Launched 15 markets for tennis to improve our existing market offerings.",
+        "Optimized the existing solution, resulting in a remarkable 80-85% improvement in API response times, significantly enhancing user experience.",
+        "**Tech Stack:** Java 21, Spring Boot, RabbitMQ, MySQL, Redis, Maven, AWS, Docker, Kubernetes, GitLab CI, JUnit, K6, Grafana, Prometheus, Loki"
+      ]
+    },
+    {
+      "name": "/thoughtworks",
+      "location": "Bangalore, India",
+      "description": "A global technology consultancy company",
+      "position": "Senior Consultant",
+      "url": "https://www.thoughtworks.com",
       "startDate": "2023-10-01",
-      "summary": "**Client Enablement**\nMajor focus is on boosting the productive output of one of the client teams.",
+      "endDate": "2024-02-29",
+      "summary": "**Credem Bank - Client Enablement**",
       "highlights": [
         "Collaborate with key stakeholders to understand the client's challenges and requirements, gathering insights into their expectations and desired outcomes.",
         "Identifying and prioritizing solutions for challenges and proposing solutions in accordance with the provided timeline.",
         "Train and educate client teams about agile methodologies.",
         "Enabling the client team to increase their delivery speed by doing co-source deliveries for a quarter.",
-        "In a team of 2, the primary responsibility is to conceptualize, experiment, and co-create solutions with the help of extreme programming and agile methodology."
+        "In a team of 2, the primary responsibility is to conceptualize, experiment, and co-create solutions with the help of extreme programming and agile methodology.",
+        "**Tech Stack:** Python, PyTest, Teradata, Azure DevOps"
       ]
     },
     {
@@ -50,14 +68,13 @@
       "url": "https://www.thoughtworks.com",
       "startDate": "2021-10-18",
       "endDate": "2023-09-30",
-      "summary": "**Ecommerce platform**\nBuilding RESTful domain APIs for an e-commerce platform. To provide a single data source for data used across e-commerce, we used an event-based system to sync data from multiple sources.\nMajor involvement in setting up the data pipeline, enhancing common CI/CD workflows, building the Spring starter common library, and performance testing and tuning.\nIn a team of 14, the primary responsibility was to co-create solutions, maintain code quality, and follow clean code practices. Also, I autonomously handled all DevOps-related responsibilities for our team.",
+      "summary": "**John Deere - Ecommerce platform**",
       "highlights": [
-        "**Tech Stack:** Java 17, SpringBoot, Scala, Kafka, ksqlDB",
-        "**Build Tool:** Gradle",
-        "**CI/CD:** Jenkins, GitHub Actions",
-        "**Cloud:** AWS (EKS, MSK, Terraform)",
-        "**Testing Tool:** JUnit, TestNG, Gatling",
-        "**Platform:** Docker"
+        "Built RESTful APIs to power an e-commerce platform with unified data access, using an event-driven system to fetch real-time data from multiple sources.",
+        "Major involvement in setting up the data pipeline, integrating and enhancing APIs, building the Spring starter common library, driving estimation and help analyze architectural decision.",
+        "For an agile team of 14, collaborated to co-create solutions, maintained code quality, and fostered clean coding practices.",
+        "Autonomously handled all DevOps-related responsibilities for the team, optimizing CI/CD workflows, automating mundane tasks and conducting performance testing and tuning.",
+        "**Tech Stack:** Java 17, SpringBoot, Scala, Kafka, ksqlDB, Gradle, Jenkins, GitHub Actions, AWS (EKS, MSK, Cloudwatch), Terraform, JUnit, TestNG, Gatling, Docker, Kubernetes, AppDynamics"
       ]
     },
     {
@@ -130,11 +147,13 @@
         "CI/CD",
         "Azure DevOps",
         "Jenkins | Github Actions",
+        "GitLab CI",
         "Terraform",
+        "Helm",
         "Git",
         "Docker",
         "Kubernetes",
-        "Linux",
+        "Linux/UNIX",
         "Maven",
         "Gradle"
       ]
@@ -175,7 +194,8 @@
       "level": "Intermediate",
       "keywords": [
         "PostgreSQL",
-        "MySQL"
+        "MySQL",
+        "Redis"
       ]
     },
     {
