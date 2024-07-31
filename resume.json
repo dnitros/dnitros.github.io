@@ -136,7 +136,9 @@
         "Kafka",
         "Microservices Development",
         "TDD - Test-Driven Development",
-        "Clean Code"
+        "Clean Code",
+        "Golang",
+        "RabbitMQ"
       ]
     },
     {
@@ -157,11 +159,6 @@
         "Maven",
         "Gradle"
       ]
-    },
-    {
-      "name": "Golang",
-      "level": "Intermediate",
-      "keywords": []
     },
     {
       "name": "Spring Boot",
